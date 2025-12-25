@@ -107,11 +107,25 @@ climada-setup/
 │   ├── exposure/                 # Exposure data
 │   ├── hazard/                   # Hazard data
 │   └── vulnerability/            # Vulnerability/impact functions
-└── docs/                         # Additional documentation
-    └── getting_started.ipynb     # Jupyter notebook tutorial
+├── docs/                         # Additional documentation
+│   ├── getting_started.ipynb     # Jupyter notebook tutorial
+│   └── quick_reference.md        # Quick reference guide
+├── config.py                     # Project configuration
+├── run_all_workflows.py          # Script to run all workflows
+└── CONTRIBUTING.md               # Contribution guidelines
 ```
 
 ## Usage
+
+### Quick Test
+
+Run all example workflows at once:
+
+```bash
+python run_all_workflows.py
+```
+
+Note: This script checks if CLIMADA is installed and provides helpful error messages if not.
 
 ### Getting Started with Jupyter
 
@@ -193,6 +207,8 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
 ## Documentation
 
 - [CLIMADA Official Documentation](https://climada-python.readthedocs.io/en/stable/)
@@ -209,7 +225,9 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This repository structure and example scripts are provided as-is for educational and research purposes. CLIMADA itself is licensed under GPLv3. See the [CLIMADA license](https://github.com/CLIMADA-project/climada_python/blob/main/LICENSE) for details.
+This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Important:** This license applies to the setup scripts, documentation, and configuration files in this repository. CLIMADA itself is licensed under GPLv3. When using CLIMADA, you must comply with its license terms. See the [CLIMADA license](https://github.com/CLIMADA-project/climada_python/blob/main/LICENSE) for details.
 
 ## Acknowledgments
 
