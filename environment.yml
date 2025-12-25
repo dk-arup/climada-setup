@@ -1,0 +1,19 @@
+name: climada_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - climada>=6.0.0
+  - climada-petals
+  - jupyter
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - pandas
+  - numpy
+  - xarray
+  - netCDF4
+  - pip
+  - pip:
+    - ipykernel

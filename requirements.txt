@@ -1,0 +1,14 @@
+# CLIMADA Setup - Requirements
+# Note: It is strongly recommended to use conda/mamba (see environment.yml)
+# This file is provided for reference, but pip alone may not resolve all dependencies
+
+climada>=6.0.0
+climada-petals
+jupyter
+jupyterlab
+notebook
+matplotlib>=3.5.0
+pandas>=1.5.0
+numpy>=1.23.0
+xarray>=2022.6.0
+netCDF4>=1.6.0
